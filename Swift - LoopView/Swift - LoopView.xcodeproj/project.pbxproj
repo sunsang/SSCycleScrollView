@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E5BFD621745F5700AC3289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5BFD521745F5700AC3289 /* AppDelegate.swift */; };
+		06E5BFD821745F5700AC3289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5BFD721745F5700AC3289 /* ViewController.swift */; };
+		06E5BFDB21745F5700AC3289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E5BFD921745F5700AC3289 /* Main.storyboard */; };
+		06E5BFDD21745F6000AC3289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E5BFDC21745F6000AC3289 /* Assets.xcassets */; };
+		06E5BFE021745F6000AC3289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E5BFDE21745F6000AC3289 /* LaunchScreen.storyboard */; };
+		06E5BFEB21745F6000AC3289 /* Swift___LoopViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5BFEA21745F6000AC3289 /* Swift___LoopViewTests.swift */; };
+		06E5BFF621745F6000AC3289 /* Swift___LoopViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5BFF521745F6000AC3289 /* Swift___LoopViewUITests.swift */; };
+		06E5C00421745FB800AC3289 /* SSCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5C00321745FB800AC3289 /* SSCycleScrollView.swift */; };
+		2BE3B6D08A074B71BDEFB5B6 /* libPods-Swift - LoopView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0D407EBD4FB2B80AC6EAD6 /* libPods-Swift - LoopView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E5BFE721745F6000AC3289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E5BFCA21745F5700AC3289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E5BFD121745F5700AC3289;
+			remoteInfo = "Swift - LoopView";
+		};
+		06E5BFF221745F6000AC3289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E5BFCA21745F5700AC3289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E5BFD121745F5700AC3289;
+			remoteInfo = "Swift - LoopView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E5BFD221745F5700AC3289 /* Swift - LoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - LoopView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E5BFD521745F5700AC3289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06E5BFD721745F5700AC3289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06E5BFDA21745F5700AC3289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06E5BFDC21745F6000AC3289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06E5BFDF21745F6000AC3289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06E5BFE121745F6000AC3289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E5BFE621745F6000AC3289 /* Swift - LoopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - LoopViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E5BFEA21745F6000AC3289 /* Swift___LoopViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift___LoopViewTests.swift; sourceTree = "<group>"; };
+		06E5BFEC21745F6000AC3289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E5BFF121745F6000AC3289 /* Swift - LoopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - LoopViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E5BFF521745F6000AC3289 /* Swift___LoopViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift___LoopViewUITests.swift; sourceTree = "<group>"; };
+		06E5BFF721745F6000AC3289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E5C00321745FB800AC3289 /* SSCycleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCycleScrollView.swift; sourceTree = "<group>"; };
+		4E0D407EBD4FB2B80AC6EAD6 /* libPods-Swift - LoopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swift - LoopView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D684E7456E20A7FBC81DA07 /* Pods-Swift - LoopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift - LoopView.debug.xcconfig"; path = "Target Support Files/Pods-Swift - LoopView/Pods-Swift - LoopView.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCC882DD55853F382D763B4 /* Pods-Swift - LoopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift - LoopView.release.xcconfig"; path = "Target Support Files/Pods-Swift - LoopView/Pods-Swift - LoopView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E5BFCF21745F5700AC3289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE3B6D08A074B71BDEFB5B6 /* libPods-Swift - LoopView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFE321745F6000AC3289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFEE21745F6000AC3289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E5BFC921745F5700AC3289 = {
+			isa = PBXGroup;
+			children = (
+				06E5BFD421745F5700AC3289 /* Swift - LoopView */,
+				06E5BFE921745F6000AC3289 /* Swift - LoopViewTests */,
+				06E5BFF421745F6000AC3289 /* Swift - LoopViewUITests */,
+				06E5BFD321745F5700AC3289 /* Products */,
+				15C6BED0F533A697A5B4E524 /* Pods */,
+				648CBEDFF01477F9D440CE71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06E5BFD321745F5700AC3289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E5BFD221745F5700AC3289 /* Swift - LoopView.app */,
+				06E5BFE621745F6000AC3289 /* Swift - LoopViewTests.xctest */,
+				06E5BFF121745F6000AC3289 /* Swift - LoopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E5BFD421745F5700AC3289 /* Swift - LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				06E5BFD521745F5700AC3289 /* AppDelegate.swift */,
+				06E5BFD721745F5700AC3289 /* ViewController.swift */,
+				06E5C00321745FB800AC3289 /* SSCycleScrollView.swift */,
+				06E5BFD921745F5700AC3289 /* Main.storyboard */,
+				06E5BFDC21745F6000AC3289 /* Assets.xcassets */,
+				06E5BFDE21745F6000AC3289 /* LaunchScreen.storyboard */,
+				06E5BFE121745F6000AC3289 /* Info.plist */,
+			);
+			path = "Swift - LoopView";
+			sourceTree = "<group>";
+		};
+		06E5BFE921745F6000AC3289 /* Swift - LoopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				06E5BFEA21745F6000AC3289 /* Swift___LoopViewTests.swift */,
+				06E5BFEC21745F6000AC3289 /* Info.plist */,
+			);
+			path = "Swift - LoopViewTests";
+			sourceTree = "<group>";
+		};
+		06E5BFF421745F6000AC3289 /* Swift - LoopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06E5BFF521745F6000AC3289 /* Swift___LoopViewUITests.swift */,
+				06E5BFF721745F6000AC3289 /* Info.plist */,
+			);
+			path = "Swift - LoopViewUITests";
+			sourceTree = "<group>";
+		};
+		15C6BED0F533A697A5B4E524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D684E7456E20A7FBC81DA07 /* Pods-Swift - LoopView.debug.xcconfig */,
+				FDCC882DD55853F382D763B4 /* Pods-Swift - LoopView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		648CBEDFF01477F9D440CE71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D407EBD4FB2B80AC6EAD6 /* libPods-Swift - LoopView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E5BFD121745F5700AC3289 /* Swift - LoopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E5BFFA21745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopView" */;
+			buildPhases = (
+				9DD7EA80FF69978887962089 /* [CP] Check Pods Manifest.lock */,
+				06E5BFCE21745F5700AC3289 /* Sources */,
+				06E5BFCF21745F5700AC3289 /* Frameworks */,
+				06E5BFD021745F5700AC3289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - LoopView";
+			productName = "Swift - LoopView";
+			productReference = 06E5BFD221745F5700AC3289 /* Swift - LoopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06E5BFE521745F6000AC3289 /* Swift - LoopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E5BFFD21745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopViewTests" */;
+			buildPhases = (
+				06E5BFE221745F6000AC3289 /* Sources */,
+				06E5BFE321745F6000AC3289 /* Frameworks */,
+				06E5BFE421745F6000AC3289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E5BFE821745F6000AC3289 /* PBXTargetDependency */,
+			);
+			name = "Swift - LoopViewTests";
+			productName = "Swift - LoopViewTests";
+			productReference = 06E5BFE621745F6000AC3289 /* Swift - LoopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06E5BFF021745F6000AC3289 /* Swift - LoopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E5C00021745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopViewUITests" */;
+			buildPhases = (
+				06E5BFED21745F6000AC3289 /* Sources */,
+				06E5BFEE21745F6000AC3289 /* Frameworks */,
+				06E5BFEF21745F6000AC3289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E5BFF321745F6000AC3289 /* PBXTargetDependency */,
+			);
+			name = "Swift - LoopViewUITests";
+			productName = "Swift - LoopViewUITests";
+			productReference = 06E5BFF121745F6000AC3289 /* Swift - LoopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E5BFCA21745F5700AC3289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = NICE;
+				TargetAttributes = {
+					06E5BFD121745F5700AC3289 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					06E5BFE521745F6000AC3289 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 06E5BFD121745F5700AC3289;
+					};
+					06E5BFF021745F6000AC3289 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 06E5BFD121745F5700AC3289;
+					};
+				};
+			};
+			buildConfigurationList = 06E5BFCD21745F5700AC3289 /* Build configuration list for PBXProject "Swift - LoopView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E5BFC921745F5700AC3289;
+			productRefGroup = 06E5BFD321745F5700AC3289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E5BFD121745F5700AC3289 /* Swift - LoopView */,
+				06E5BFE521745F6000AC3289 /* Swift - LoopViewTests */,
+				06E5BFF021745F6000AC3289 /* Swift - LoopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E5BFD021745F5700AC3289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E5BFE021745F6000AC3289 /* LaunchScreen.storyboard in Resources */,
+				06E5BFDD21745F6000AC3289 /* Assets.xcassets in Resources */,
+				06E5BFDB21745F5700AC3289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFE421745F6000AC3289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFEF21745F6000AC3289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DD7EA80FF69978887962089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift - LoopView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E5BFCE21745F5700AC3289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E5BFD821745F5700AC3289 /* ViewController.swift in Sources */,
+				06E5BFD621745F5700AC3289 /* AppDelegate.swift in Sources */,
+				06E5C00421745FB800AC3289 /* SSCycleScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFE221745F6000AC3289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E5BFEB21745F6000AC3289 /* Swift___LoopViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E5BFED21745F6000AC3289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E5BFF621745F6000AC3289 /* Swift___LoopViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06E5BFE821745F6000AC3289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E5BFD121745F5700AC3289 /* Swift - LoopView */;
+			targetProxy = 06E5BFE721745F6000AC3289 /* PBXContainerItemProxy */;
+		};
+		06E5BFF321745F6000AC3289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E5BFD121745F5700AC3289 /* Swift - LoopView */;
+			targetProxy = 06E5BFF221745F6000AC3289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06E5BFD921745F5700AC3289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E5BFDA21745F5700AC3289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06E5BFDE21745F6000AC3289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E5BFDF21745F6000AC3289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E5BFF821745F6000AC3289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06E5BFF921745F6000AC3289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06E5BFFB21745F6000AC3289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D684E7456E20A7FBC81DA07 /* Pods-Swift - LoopView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06E5BFFC21745F6000AC3289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCC882DD55853F382D763B4 /* Pods-Swift - LoopView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06E5BFFE21745F6000AC3289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - LoopView.app/Swift - LoopView";
+			};
+			name = Debug;
+		};
+		06E5BFFF21745F6000AC3289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - LoopView.app/Swift - LoopView";
+			};
+			name = Release;
+		};
+		06E5C00121745F6000AC3289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift - LoopView";
+			};
+			name = Debug;
+		};
+		06E5C00221745F6000AC3289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3GB337556C;
+				INFOPLIST_FILE = "Swift - LoopViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yunqiandai.Swift---LoopViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift - LoopView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E5BFCD21745F5700AC3289 /* Build configuration list for PBXProject "Swift - LoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E5BFF821745F6000AC3289 /* Debug */,
+				06E5BFF921745F6000AC3289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E5BFFA21745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E5BFFB21745F6000AC3289 /* Debug */,
+				06E5BFFC21745F6000AC3289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E5BFFD21745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E5BFFE21745F6000AC3289 /* Debug */,
+				06E5BFFF21745F6000AC3289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E5C00021745F6000AC3289 /* Build configuration list for PBXNativeTarget "Swift - LoopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E5C00121745F6000AC3289 /* Debug */,
+				06E5C00221745F6000AC3289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E5BFCA21745F5700AC3289 /* Project object */;
+}

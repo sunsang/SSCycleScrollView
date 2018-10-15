@@ -1,0 +1,6 @@
+module Pods_Swift___LoopView {
+  umbrella header "Pods-Swift - LoopView-umbrella.h"
+
+  export *
+  module * { export * }
+}
